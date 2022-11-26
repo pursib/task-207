@@ -18,7 +18,6 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
 .main {
   display: flex;
   justify-content: center;
@@ -26,12 +25,16 @@ html {
 }
 
 .card {
+  box-sizing: content-box;
   border: 10px solid $grey-light;
+  width: 500px;
 }
 
 .card-header {
   background-color: $light;
+  padding: 25px 5px 20px 25px;
 }
 
 .card .content {
+  padding: 30px 25px;
 }
